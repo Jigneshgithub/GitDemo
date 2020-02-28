@@ -15,6 +15,8 @@ public class AppiumTest {
 	@Test
 	public void IOSApp() {
 		System.out.println("IOSapp");
+		System.out.println("HybridApp");
+		Assert.assertEquals(true, true);
 	}
 
 }
